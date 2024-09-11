@@ -1,6 +1,7 @@
 This repository contains implementations of two constant-time sampling algorithms in Java.
 
 src/sampling/AliasTable.java - Implementation of Walker's Alias Table
+
 src/sampling/ProposalArray.java - Implementation of the static Proposal Array
 
 # Usage Example
