@@ -37,9 +37,12 @@ public class BasicExample {
 		
 		// Create a Proposal Array and Alias Table for the example weights.
 		Sampler proposal_array = new ProposalArray(weights);
+		Sampler alias_table = new AliasTable(weights);
 		
 		// Perform the experiment with both.
 		doExperiment(random, proposal_array);
+		System.out.println();
+		doExperiment(random, alias_table);
 	}
 
 }
