@@ -1,1 +1,1 @@
-# sampling-algorithms
+This repository contains implementations of two constant-time sampling algorithms in Java.
